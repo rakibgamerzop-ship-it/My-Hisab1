@@ -1,0 +1,6 @@
+{
+  "name": "My Hisab - Personal Finance Tracker",
+  "description": "Modern personal finance management application with BDT currency, daily expense tracking, budget planning, family support, and debt management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

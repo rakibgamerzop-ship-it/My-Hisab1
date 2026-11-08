@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E75E8" />
+      <stop offset="100%" stop-color="#0E54B0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <circle cx="256" cy="256" r="190" fill="#FFFFFF" fill-opacity="0.08" />
+  <!-- Bengali Taka glyph ৳ in clean modern path geometry -->
+  <g filter="url(#shadow)" fill="#FFFFFF">
+    <path d="M 230 118 C 285 118 335 155 335 210 C 335 250 305 282 268 296 L 268 340 L 320 340 C 330 340 338 348 338 358 C 338 368 330 376 320 376 L 268 376 L 268 395 C 268 405 260 413 250 413 C 240 413 232 405 232 395 L 232 376 L 195 376 C 185 376 177 368 177 358 C 177 348 185 340 195 340 L 232 340 L 232 296 C 195 282 165 250 165 210 C 165 155 215 118 230 118 Z M 250 154 C 218 154 201 180 201 210 C 201 240 218 266 250 266 C 282 266 299 240 299 210 C 299 180 282 154 250 154 Z"/>
+    <!-- Wallet / Hisab accent curve -->
+    <circle cx="340" cy="160" r="18" fill="#60A5FA"/>
+  </g>
+</svg>
